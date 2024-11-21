@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f3e9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 50px;
+    border-radius: 10px;
+}
+
+.title {
+    font-family: "Edu AU VIC WA NT Pre", serif;
+    font-size: 3em;
+    color: #8b4513;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-decoration: underline;
+    letter-spacing: 5px;
+}
+
+.welcome-message {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px 0;
+    font-style: italic;
+    color: #555;
+}
+
+.category {
+    font-family: 'Verdana', sans-serif;
+    font-size: 2em;
+    color: #d2691e;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    text-align: right;
+    border-bottom: 2px solid #d2691e;
+    padding-bottom: 5px;
+}
+
+/* Menütext */
+.menu-item {
+    font-family: 'Courier New', monospace;
+    font-size: 1.2em;
+    color: #333;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #8b4513;
+    margin-left: auto;
+}
+
+.special {
+    color: #8b0000;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.highlight {
+    font-weight: bold;
+    text-decoration: underline dotted;
+    color: #ff4500;
+}
+
+ul.custom-list {
+    list-style-type: circle;
+    padding-left: 20px;
+    margin: 0;
+}
+
+ul.custom-list li {
+    display: list-item;
+    margin-bottom: 10px;
+}
+
+/* Fußzeile */
+.footer {
+    font-size: 0.8em;
+    text-align: center;
+    color: #777;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
